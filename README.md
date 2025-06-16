@@ -1,5 +1,7 @@
 # LLM zoomcamp
 
+Info: https://github.com/DataTalksClub/llm-zoomcamp/tree/main
+
 ## hw1
 
 [homework itself](https://github.com/DataTalksClub/llm-zoomcamp/blob/main/cohorts/2025/01-intro/homework.md)
@@ -29,7 +31,7 @@ Put elasticsearch to sleep
 docker stop es01
 ```
 
-### scipts
+### scripts
 
 using [uv](https://github.com/astral-sh/uv) for pkg management. Caveat: need to pin elasticsearch python pkg version 
 
