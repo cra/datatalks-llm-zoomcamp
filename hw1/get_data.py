@@ -5,8 +5,8 @@ URL = 'http://localhost:9200'
 
 # create index
 es = elasticsearch.Elasticsearch(URL)
-# mapping = {"mappings": {"properties": {"course": {"type": "keyword"}}}}
-# es.indices.create(index="hw1_index", body=mapping)
+mapping = {"mappings": {"properties": {"course": {"type": "keyword"}}}}
+es.indices.create(index="hw1_index", body=mapping)
 
 # load data
 docs_url = 'https://github.com/DataTalksClub/llm-zoomcamp/blob/main/01-intro/documents.json?raw=1'

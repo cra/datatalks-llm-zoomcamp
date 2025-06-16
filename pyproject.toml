@@ -8,4 +8,5 @@ dependencies = [
     "elasticsearch>=8,<9",
     "minsearch>=0.0.2",
     "requests>=2.32.4",
+    "tiktoken>=0.9.0",
 ]

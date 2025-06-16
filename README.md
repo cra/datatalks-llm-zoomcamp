@@ -16,11 +16,17 @@ docker run -d --name es01 \
     docker.elastic.co/elasticsearch/elasticsearch:8.17.6
 ```
 
-Run python script:
+Run homework 1 scripts:
 ```bash
-uv run get_data.py
-uv run search.py  # q3
-uv run filter.py  # q4
-uv run prompt.py  # q5
+uv run hw1/get_data.py
+uv run hw1/search.py      # q3
+uv run hw1/filter.py      # q4  
+uv run hw1/prompt.py      # q5
+uv run hw1/tokens.py      # q6
+```
+
+Put elasticsearch to sleep
+```bash
+docker stop es01
 ```
 
