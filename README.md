@@ -21,5 +21,6 @@ Run python script:
 uv run get_data.py
 uv run search.py  # q3
 uv run filter.py  # q4
+uv run prompt.py  # q5
 ```
 
